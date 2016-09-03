@@ -25,5 +25,4 @@ public class SqFirstCubeSec {
 		x=num%10;
 		System.out.println("Cube of 2nd Digit is : "+(x*x*x));
 	}
-
 }
