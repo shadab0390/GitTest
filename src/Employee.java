@@ -5,11 +5,15 @@
 	private int empSal ;
 	private	String empName;
 	
-	public Employee(int id , int sal , String name)
+	
+	private Address add ;
+	
+	public Employee(int id , int sal , String name , Address add)
 	{
 		this.empId = id;
 		this.empSal = sal;
 		this.empName = name;
+		this.add = add;
 	}
 
 	public int getEmpId() {
@@ -23,4 +27,8 @@
 	public String getEmpName() {
 		return empName;
 	}
+
+	public Address getAdd() {
+		return add;
 	}
+}
